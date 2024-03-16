@@ -1,0 +1,17 @@
+.div-breadcrumbs {
+    padding: 0.75rem;
+    background-color: whitesmoke;
+    line-height: 1rem;
+    color: black !important;
+}
+
+.div-breadcrumbs a {
+    display: flex !important;
+    cursor: pointer;
+    font-weight: 600 !important;
+}
+
+.div-breadcrumbs p {
+    display: flex !important;
+    font-weight: 600 !important;
+}

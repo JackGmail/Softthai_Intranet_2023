@@ -1,0 +1,9 @@
+{
+  "app_title": "new value 1",
+  "language": "Language",
+  "welcome_message": "Welcome",
+  "days_since_release": "it's been {{number_of_days}} days since TH",
+  "oDutyTypeHeader": "DutyTypeHeader",
+  "yup": "please specify {{input}} ",
+  "support_group": "Support Division"
+}

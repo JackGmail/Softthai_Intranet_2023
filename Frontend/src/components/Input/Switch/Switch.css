@@ -1,0 +1,49 @@
+/* 
+
+.react-switch {
+	width: 100%;
+}
+
+.react-switch-label-custom {
+	font-size: 1rem !important;
+	margin-left: 30px;
+	margin-right: 30px;
+	color: transparent;
+	height: 1px;
+}
+ */
+
+.div-react-switch-form {
+	position: relative;
+	width: 100%;
+}
+
+.div-react-switch-left {
+	position: relative;
+	width: 100%;
+	display: contents;
+    white-space: nowrap;
+}
+
+.react-switch-form {
+	position: relative;
+	width: 100%;
+	margin-right: 0px !important;
+}
+
+.react-switch-form-label {
+	white-space: nowrap !important;
+	width: 100% !important;
+}
+
+.react-switch-bg>div {
+	width: inherit !important;
+}
+
+.react-switch-label-check, .react-switch-label-uncheck {
+	font-size: 1rem !important;
+	text-align: center !important;
+	position: relative !important;
+	top: 50% !important;
+	transform: translate(0, -50%) !important;
+}

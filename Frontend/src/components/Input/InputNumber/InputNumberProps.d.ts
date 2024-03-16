@@ -1,0 +1,32 @@
+export interface IInputNumber {
+    id: string;
+    name: string;
+    label?: string;
+    placeholder?: string;
+    disabled?: boolean;
+    required?: boolean;
+    isShowMessageError?: boolean;
+    margin?: any;
+    style?: React.CSSProperties;
+    textAlign?: 'inherit' | 'left' | 'center' | 'right' | 'justify';
+    variant?: "filled" | "standard" | "outlined" | undefined;
+    startAdornment?: any;
+    endAdornment?: any;
+    suffix?: string;
+    maxInteger?: number;
+    maxDigits?: number;
+    ShowDigits?: number;
+    IsShrink?: boolean;
+    IsCanMinus?: boolean;
+    arrStringAllow?: any;
+    IsAllowScientific?: any;
+    onChange?: (value: any, event: any) => void;
+    onBlur?: (value: any, event: any) => void;
+    onKeyDown?: (event: any) => void;
+    onKeyUp?: (event: any) => void;
+    onFocus?: (event: any) => void;
+    min?: number;
+    max?: number;
+    required?: boolean;
+    defaultValue?: any;
+}

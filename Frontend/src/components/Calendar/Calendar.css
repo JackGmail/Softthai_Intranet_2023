@@ -1,0 +1,89 @@
+.fc-day-today {
+    background: #F8E8D3 !important;
+    border: none !important;
+}
+
+.fc-h-event {
+    border: none !important;
+}
+
+.calendar-title {
+    padding: 2px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fc-event {
+    border: none !important;
+}
+
+.HourglassTopRoundedIconClass {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    background: #489F84;
+    border-color: #489F84;
+}
+
+.CheckCircleRoundedIconClass {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    background: #55B635;
+    border-color: #55B635;
+}
+
+.fc .fc-more-popover .fc-popover-body {
+    max-height: 250px;
+    overflow: auto;
+}
+
+.spanIcon {
+    display: flex;
+    padding-right: 4px;
+}
+
+.spanTitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+}
+
+.fc .fc-popover {
+    max-width: 300px;
+}
+
+@media screen and (min-width:100px) and (max-width:400px) {
+
+    .fc .fc-button {
+        font-size: 0.5em !important;
+    }
+
+    .fc .fc-toolbar-title {
+        font-size: 0.8em !important;
+        text-align: center;
+    }
+
+    .fc .fc-button-group {
+        display: block;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:700px) {
+
+    .fc .fc-button {
+        font-size: 0.8em !important;
+    }
+
+    .fc .fc-toolbar-title {
+        font-size: 1em !important;
+        text-align: center;
+    }
+
+    .fc .fc-button-group {
+        display: block;
+    }
+}
